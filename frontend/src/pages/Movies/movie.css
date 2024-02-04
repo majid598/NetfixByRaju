@@ -1,0 +1,46 @@
+.movie-categories {
+    padding: 1% 0;
+}
+.movie-category {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.movie-item {
+    position: relative;
+}
+@media screen and (max-width: 1080px) {
+    .movies-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width: 720px) {
+    .movies-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 500px) {
+    .home {
+        padding: 1rem;
+    }
+}
+.movie-item .tools {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-list-1 {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+#movie-frame{
+    position: absolute;
+    top: 0;
+    /* width; */
+}

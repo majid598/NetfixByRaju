@@ -1,0 +1,55 @@
+.feature .feature-title {
+  /* font-size: 3.5rem; */
+  margin-bottom: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+}
+.feature .feature-desc {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  font-size: 1.3rem;
+}
+body {
+  /* background-color: white; */
+}
+.feature {
+  display: grid;
+  grid-template-columns: 2.5fr 2fr;
+  height: 60vh;
+  align-items: center;
+  gap: 2rem;
+}
+.feature .feature-img{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+.img-feature{
+    position: relative;
+}
+.video-gif{
+
+}
+.feature-download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: black;
+}
+.feature-download .level-1{
+    display: flex;
+
+}
+.feature-download .movie-name span{
+    color: #0071eb;
+}
+.feature-download .movie-name {
+    padding: 0 1rem;
+}
+.feature-download .movie-name h3{
+    font-size: 1.2rem;
+    /* padding: .5rem; */
+    font-weight: 900;
+}

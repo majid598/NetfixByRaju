@@ -1,0 +1,37 @@
+.home {
+    padding: 1rem 6rem;
+}
+@media screen and (max-width: 1080px) {
+    .home {
+        padding: 1rem 4rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    .home {
+        padding: 1rem 3rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .home {
+        padding: 1rem;
+    }
+}
+.video-tv {
+    position: relative;
+}
+.video-tv::after {
+    content: "";
+    background: url(./assets/images/tv.png) no-repeat center center/cover;
+    width: 35rem;
+    height: 17rem;
+    top: 0;
+    z-index: 10;
+    left: -68px;
+    position: absolute;
+}
+@media screen and (max-width: 450px) {
+    .video-tv::after {
+        width: 28rem;
+        height: 14rem;
+    }
+}

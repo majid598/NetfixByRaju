@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* variables */
+:root{
+    --main-bg:#e50914;
+    --gray-color: #a1a0a0;
+}
+.home {
+    background-color: black;
+    color: #fff;
+}

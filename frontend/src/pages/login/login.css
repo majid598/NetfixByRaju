@@ -1,0 +1,9 @@
+.login-form {
+  background-color: rgba(0, 0, 0, 0.70);
+  color: #333333;
+}
+@media screen and (max-width: 624px) {
+  header {
+    padding: 1rem 0;
+  }
+}
